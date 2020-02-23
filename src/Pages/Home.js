@@ -17,7 +17,10 @@ const Home = () => {
 					</Link>{' '}
 					y su useEffect.
 				</p>
-				<img src="http://localhost:3000/img/hero.png" alt="Classic vs Hooks" />
+				<img
+					src="https://raw.githubusercontent.com/JuandaGarcia/react-classic-vs-hooks/master/public/img/hero.png"
+					alt="Classic vs Hooks"
+				/>
 			</div>
 		</div>
 	)
