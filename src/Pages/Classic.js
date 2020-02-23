@@ -43,7 +43,12 @@ class Classic extends React.Component {
 					<span className="contador">{this.state.contador}</span>
 					<button onClick={this.handleClick}>Aumentar</button>
 				</div>
-				<Info text={'View Classic code in github'} url={''} />
+				<Info
+					text={'View Classic code in github'}
+					url={
+						'https://github.com/JuandaGarcia/react-classic-vs-hooks/blob/master/src/Pages/Classic.js'
+					}
+				/>
 			</div>
 		)
 	}

@@ -39,7 +39,12 @@ const Hooks = () => {
 					Aumentar
 				</button>
 			</div>
-			<Info text={'View Hooks code in github'} url={''} />
+			<Info
+				text={'View Hooks code in github'}
+				url={
+					'https://github.com/JuandaGarcia/react-classic-vs-hooks/blob/master/src/Pages/Hooks.js'
+				}
+			/>
 		</div>
 	)
 }
