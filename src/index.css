@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-tap-highlight-color: transparent;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*::selection {
+	background-color: #1bcdbd;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 92vw;
+	padding: 5vh 4vw;
+	height: 5vh;
+}
+
+nav a {
+	margin: 0 20px;
+	font-size: 1.5em;
+}
+
+.link-active {
+	color: #1bcdbd;
+}
+
+.logo {
+	font-weight: 900;
+	font-size: 2em;
+}
+
+.home {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 85vh;
+	width: 92%;
+	padding: 0 4%;
+}
+
+.home img {
+	width: 25%;
+	margin-top: 20px;
+}
+
+.home-container {
+	text-align: center;
+}
+
+.home h1 {
+	margin-bottom: 20px;
+}
+
+.contador {
+	font-size: 5em;
+}
+
+.componente {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 70vh;
+}
+
+.componente button {
+	border-radius: 25px;
+	border: 2px solid black;
+	background-color: transparent;
+	width: 150px;
+	height: 30px;
+	outline: none;
+}
+
+.componente button:hover {
+	border: 2px solid #1bcdbd;
+}
+
+.contenedor-scroll-icon {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 15vh;
+}
+
+.contenedor-info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.link {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+	.home h1 {
+		font-size: 1em;
+	}
 }
