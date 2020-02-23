@@ -15,7 +15,7 @@
 		"react-scripts": "3.4.0"
 	},
 	"scripts": {
-		"predeploy": "npm run buld",
+		"predeploy": "npm run build",
 		"deploy": "gp-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
