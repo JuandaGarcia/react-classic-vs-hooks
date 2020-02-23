@@ -4,7 +4,7 @@ import { NavLink, Link } from 'react-router-dom'
 const NavBar = () => {
 	return (
 		<header>
-			<Link to="/" className="logo">
+			<Link to="/react-classic-vs-hooks" className="logo">
 				React
 			</Link>
 			<nav>
