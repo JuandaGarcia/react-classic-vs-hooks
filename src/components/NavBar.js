@@ -9,10 +9,16 @@ const NavBar = () => {
 			</Link>
 			<nav>
 				<div>
-					<NavLink to="/classic" activeClassName="link-active">
+					<NavLink
+						to="/react-classic-vs-hooks/classic"
+						activeClassName="link-active"
+					>
 						Classic
 					</NavLink>
-					<NavLink to="/hooks" activeClassName="link-active">
+					<NavLink
+						to="/react-classic-vs-hooks/hooks"
+						activeClassName="link-active"
+					>
 						Hooks
 					</NavLink>
 				</div>

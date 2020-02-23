@@ -8,11 +8,11 @@ const Home = () => {
 				<h1>React classic VS React Hooks</h1>
 				<p>
 					Compara la forma{' '}
-					<Link to="/classic">
+					<Link to="/react-classic-vs-hooks/classic">
 						<strong>Clasica</strong>
 					</Link>{' '}
 					de usar React creando clases con{' '}
-					<Link to="/hooks">
+					<Link to="/react-classic-vs-hooks/hooks">
 						<strong>React Hooks</strong>
 					</Link>{' '}
 					y su useEffect.

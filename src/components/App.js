@@ -10,9 +10,13 @@ const App = () => {
 		<BrowserRouter>
 			<Switch>
 				<Layout>
-					<Route exact path="/" component={Home} />
-					<Route exact path="/classic" component={Classic} />
-					<Route exact path="/hooks" component={Hooks} />
+					<Route exact path="/react-classic-vs-hooks/" component={Home} />
+					<Route
+						exact
+						path="/react-classic-vs-hooks/classic"
+						component={Classic}
+					/>
+					<Route exact path="/react-classic-vs-hooks/hooks" component={Hooks} />
 				</Layout>
 			</Switch>
 		</BrowserRouter>
